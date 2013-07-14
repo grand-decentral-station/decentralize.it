@@ -247,20 +247,23 @@ disabled autoupdating of cache files, but then you
 need to make sure to delete cache files yourself after
 each update. 
 
-With c::set('cache.ignore', array()); you can speficy
+With c::set('cache.ignore.urls', array()); you can speficy
 an array of URIs which should be skipped for caching.
 If you got a search page for example you might not want
 to cache each search result so you can add the URI of your
 search site to the ignore array: 
 
-c::set('cache.ignore', array('search', 'some/other/uri/to/ignore'));
+c::set('cache.ignore.urls', array('search', 'some/other/uri/to/ignore'));
+
+With c::set('cache.ignore.templates', array()); you can speficy
+an array of template names which should be skipped for caching.
 
 */
-
 c::set('cache', false);
+c::set('cache.html', true);
 c::set('cache.autoupdate', true);
-c::set('cache.ignore', array());
-
+c::set('cache.ignore.urls', array());
+c::set('cache.ignore.templates', array());
 
 /*
 
