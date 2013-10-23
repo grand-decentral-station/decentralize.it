@@ -1,5 +1,5 @@
 a {
-  color: $brand-color;
+  color: #000;
   @include vendor(transition, all .3s);
   text-decoration: none;
 }

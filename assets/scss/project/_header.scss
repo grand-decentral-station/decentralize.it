@@ -1,14 +1,30 @@
 .header {
   background: #222 url(../images/station.jpg) no-repeat center center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
-.header h2 {
-  font-weight: 300;
+.header h1 {
+  text-shadow: #000 2px 4px 0;  
 }
 
-.header__content {
-  background: rgba(#000, .7);
-  padding: 15em 3em 1.5em 3em;  
+.header .content {
+  background: rgba(#000, .8);
+  padding: 3em 3em 1.5em 3em;  
   color: #fff;
+}
+
+.header .intro p {
+  font-size: $h2-size;
+  line-height: 1.5em;
+  font-weight: 300;
+  padding-top: 3em;
+  color: lighten($brand-color, 1%);
+  max-width: 640px;
+}
+
+.header .intro p strong {
+  font-weight: 300;
+  color: lighten($brand-color, 50%);
+  white-space: nowrap;
 }

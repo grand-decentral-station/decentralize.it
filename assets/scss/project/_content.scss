@@ -1,9 +1,10 @@
 .content {
   padding: 2*24px;
 }
-.content.green {
-  background: #a7cb2c;  
-  color: #fff;
+
+.content .inner {
+  max-width: 1000px;
+  margin: 0 auto;  
 }
 
 .content.dark {
@@ -14,16 +15,12 @@
   font-weight: 400;
 }
 
-.content .intro {
-  font-size: $h2-size;
-  line-height: 1.5em;
-  margin-bottom: 0;
-  font-weight: 300;
-  color: #829e20;
+.content h1 {
+  color: #fff;
 }
 
-.content.beige {
-  background: #f0ece8;
+.content p {
+  color: rgba(0,0,0, .6);
 }
 
 .content figure {
@@ -33,4 +30,13 @@
 .content figure img {
   max-width: 600px;
   display: inline-block;
+}
+
+.content hr {
+  background: rgba(#fff,.4);
+  border: 0;
+  height: 3px;
+  display: block;
+  margin: 1.75em auto 3em;
+  box-shadow: rgba(#000, .05) 3px 3px 0;
 }

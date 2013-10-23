@@ -51,7 +51,7 @@ $use-greybox:       false;
  * Place any variables that should override inuit.css’ defaults here.
  */
 
-$brand-color:       #222;
+$brand-color:       #01b4ff;
 $brand-face:        "source-sans-pro", "Helvetica Neue", sans-serif;
 $base-ui-color:     #ddd;
 $base-font-family:  $brand-face;
@@ -66,9 +66,9 @@ $base-font-family:  $brand-face;
 /**
  * Basic Color Definitions
  */
-$text-color: #222;
+$text-color: #000;
 $light-text-color: #777;
 $inactive-text-color: #bbb;
-$background-color: #fff;
+$background-color: $brand-color;
 $negative-color: #a2433d;
 $positive-color: #9dca51;
