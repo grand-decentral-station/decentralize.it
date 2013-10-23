@@ -1,0 +1,36 @@
+.content {
+  padding: 2*24px;
+}
+.content.green {
+  background: #a7cb2c;  
+  color: #fff;
+}
+
+.content.dark {
+  background: #222;  
+  color: #fff;
+}
+.content.dark h1 {
+  font-weight: 400;
+}
+
+.content .intro {
+  font-size: $h2-size;
+  line-height: 1.5em;
+  margin-bottom: 0;
+  font-weight: 300;
+  color: #829e20;
+}
+
+.content.beige {
+  background: #f0ece8;
+}
+
+.content figure {
+  text-align: center;
+  display: block;
+}
+.content figure img {
+  max-width: 600px;
+  display: inline-block;
+}

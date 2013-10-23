@@ -1,0 +1,6 @@
+.is-hidden {
+  @extend .visuallyhidden;
+}
+.is-visible {
+  display: block !important;
+}

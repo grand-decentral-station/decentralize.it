@@ -1,0 +1,14 @@
+.header {
+  background: #222 url(../images/station.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.header h2 {
+  font-weight: 300;
+}
+
+.header__content {
+  background: rgba(#000, .7);
+  padding: 15em 3em 1.5em 3em;  
+  color: #fff;
+}
