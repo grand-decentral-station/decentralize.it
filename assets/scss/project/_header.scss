@@ -1,7 +1,6 @@
 .header {
   background: #222 url(../images/station.jpg) no-repeat center center;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 .header h1 {
@@ -9,7 +8,6 @@
 }
 
 .header .content {
-  background: rgba(#000, .8);
   padding: 3em 3em 1.5em 3em;  
   color: #fff;
 }
@@ -21,10 +19,21 @@
   padding-top: 3em;
   color: lighten($brand-color, 1%);
   max-width: 640px;
+
+  @media screen and(max-width: 600px) {
+    padding-top: 0;
+  }
+
 }
 
 .header .intro p strong {
   font-weight: 300;
   color: lighten($brand-color, 50%);
   white-space: nowrap;
+
+  @media screen and(max-width: 700px) {
+    white-space: normal;
+  }
+
 }
+

@@ -5,6 +5,10 @@ h1, .alpha {
 }
 
 h2, .beta {
+  line-height: 1.2em;
+}
+h2.flush--bottom, .beta.flush--bottom {
+  margin-bottom: .3em !important;
 }
 
 .light {

@@ -2,6 +2,13 @@
   padding: 2*24px;
 }
 
+.content a {
+  border-bottom: 2px solid rgba(#fff, .3);
+}
+.content a:hover {
+  border-color: #fff;
+}
+
 .content .inner {
   max-width: 1000px;
   margin: 0 auto;  
@@ -30,6 +37,11 @@
 .content figure img {
   max-width: 600px;
   display: inline-block;
+
+  @media screen and(max-width: 600px) {
+    max-width: 100%;
+  }
+
 }
 
 .content hr {

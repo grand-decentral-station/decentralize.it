@@ -1,11 +1,9 @@
 .footer {
-  background: #222 url(../images/station.jpg) no-repeat center center;
+  background: #222 url(../images/station.jpg) no-repeat center bottom;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 .footer .content {
-  background: rgba(#000, .8);
   padding: 3em 3em 6em 3em;  
   color: #fff;
 }

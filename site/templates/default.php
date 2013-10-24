@@ -9,7 +9,7 @@
 
     <div class="inner intro">
       <p>
-        Grand Decentral Station is a concept for a server&nbsp;operating&nbsp;system that enables designers and developers to build beautiful and secure <strong>self-hosted applications for everyone</strong>
+        Grand Decentral Station is a concept for a server operating system that enables designers and developers to build beautiful and secure <strong>self-hosted applications for everyone</strong>
       </p>
     </div>
 

@@ -1,5 +1,5 @@
-Title: Decentralize.it
+Title: Grand Decentral Station — The operating system for the open web
 ----
-Description: 
+Description: Grand Decentral Station is a concept for a server operating system that enables designers and developers to build beautiful and secure self-hosted applications for everyone
 ----
-Keywords: 
+Keywords: Grand Decentral Station, OS, server, open web, indie web
