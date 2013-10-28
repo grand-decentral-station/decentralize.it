@@ -21,6 +21,35 @@
 
   <div class="inner">
 
+    <h1 class="alpha">Get Involved</h1>
+
+    <div class="grid">
+
+      <div class="grid__item one-third lap-one-half palm-one-whole">
+        <h2 class="light flush--bottom">Github</h2>
+        <p>
+          Help writing and improving the concept for Grand Decentral on <a href="https://github.com/grand-decentral-station/concept">Github</a>
+        </p>
+      </div><!--
+
+   --><div class="grid__item one-third lap-one-half palm-one-whole">
+        <h2 class="light flush--bottom">Twitter</h2>
+        <p>
+          Follow <a href="https://twitter.com/grand_decentral">Grand Decentral (@grand_decentral)</a> on Twitter for news and updates.
+        </p>
+      </div><!--
+
+   --><div class="grid__item one-third lap-one-half palm-one-whole">
+        <h2 class="light flush--bottom">Email</h2>
+        <p>
+          Get in contact and email me: <a href="mailto:mail@bastianallgeier.com">mail@bastianallgeier.com</a>
+        </p>
+      </div>
+      
+    </div>
+
+    <hr /> 
+
     <h1 class="alpha">Core Features</h1>
 
     <div class="grid">
@@ -42,7 +71,7 @@
    --><div class="grid__item one-third lap-one-half palm-one-whole">
         <h2 class="light flush--bottom">Payment integration</h2>
         <p>
-          With support vor Stripe, Paymill, Fastspring and Paypal, Grand Decentral handles payments for your app in whatever way your users prefer.
+          With support for Stripe, Paymill, Fastspring and Paypal, Grand Decentral handles payments for your app in whatever way your users prefer.
         </p>      
       </div><!--
 
@@ -220,7 +249,7 @@
         <p>
           Are you interested in helping to fund this project? It is not on a crowd-funding platform or open for funding in general yet, 
           but I'd love to hear from you and let you know as soon as you can back this project:
-          <?php echo html::email('mail@bastianallgeier.com') ?>
+          <a href="mailto:mail@bastianallgeier.com">mail@bastianallgeier.com</a>
         </p>
       </div><!--
    --><div class="grid__item one-third lap-one-half palm-one-whole">
@@ -228,7 +257,7 @@
         <p>
           This vision can only become true with the support of developers. If you want to join me 
           building this or if you want to become a GDC developer once it is ready, please let me know: 
-          <?php echo html::email('mail@bastianallgeier.com') ?>
+          <a href="mailto:mail@bastianallgeier.com">mail@bastianallgeier.com</a>
         </p>
 
       </div><!--
@@ -237,7 +266,7 @@
         <p>
           Once Grand Decentral Station is ready, we need strong partners to launch this. 
           If you are interested to be one of the first hosting providers to offer Grand Decentral Stations on your servers, please get in contact: 
-          <?php echo html::email('mail@bastianallgeier.com') ?>
+          <a href="mailto:mail@bastianallgeier.com">mail@bastianallgeier.com</a>
         </p>
       </div>
     </div>
@@ -248,7 +277,7 @@
 <footer class="footer">
   <div class="content">
     <div class="inner">
-      &copy; 2013 — <a href="http://bastianallgeier.com">Bastian Allgeier</a>
+      &copy; 2013 — <a href="http://bastianallgeier.com">Bastian Allgeier</a>&nbsp;&nbsp;/&nbsp;&nbsp;<?php echo twitter('grand_decentral') ?>&nbsp;&nbsp;/&nbsp;&nbsp;<?php echo html::a('http://github.com/grand-decentral-station/concept', 'Concept on Github') ?>
     </div>
   </div>
 </footer>
