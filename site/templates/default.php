@@ -64,7 +64,7 @@
    --><div class="grid__item one-third lap-one-half palm-one-whole">
         <h2 class="light flush--bottom">Easy domain setup</h2>
         <p>
-          Grand Decentral helps you setup your own domains. Every app gets its own subomain. Everything can be customized.
+          Grand Decentral helps you setup your own domains. Every app gets its own subdomain. Everything can be customized.
         </p>      
       </div><!--
 
